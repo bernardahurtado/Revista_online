@@ -1,0 +1,11 @@
+// News layout
+
+.news__1, .news__2, .news__3, .news__4, .news__5, .news__6 {
+    background-color: $light-blue;
+    text-align: justify;
+}
+
+.news__body img {
+    width: 100%;
+    height: auto;   
+}

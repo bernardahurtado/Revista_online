@@ -1,0 +1,25 @@
+// style.scss # Manifest File
+
+// vendors
+
+// abstracts
+@import 'abstracts/variables';
+@import 'abstracts/functions';
+
+// base
+@import 'base/reset';
+@import 'base/typography';
+
+// layout
+@import 'layout/grid' ;
+@import 'layout/navbar';
+@import 'layout/news';
+@import 'layout/aside';
+@import 'layout/newsletter';
+@import 'layout/footer';
+
+// components
+
+// pages
+
+// themes

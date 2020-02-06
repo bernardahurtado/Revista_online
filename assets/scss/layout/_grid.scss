@@ -1,0 +1,48 @@
+// Grid
+
+.grid__container {
+    display: grid;
+    grid-template-rows: 0.5fr repeat(5,2fr) 1fr 0.5fr;
+    grid-template-columns: repeat(4, 1fr);    
+    grid-gap: 10px;  
+    margin: 2rem;
+}
+
+.navbar {
+   grid-area: 1 / 1 / 1 / 5;
+}
+
+.news__1 {
+        grid-area: 2 / 1 / 4 / 2;
+}
+.news__2 {
+        grid-area: 2 / 2 / 4 / 3;
+}
+ 
+.news__3 {
+    grid-area: 2 / 3 / 4 / 4;
+}
+
+.news__4 {
+    grid-area: 4 / 1 / 6 / 2;
+}
+
+.news__5 {
+    grid-area: 4 / 2 / 6 / 3;
+}
+
+.news__6 {
+    grid-area: 4 / 3 / 6 / 4;
+}
+
+.aside {
+    grid-area: 2 / 4 / 6 / 5;    
+}
+
+.newsletter {   
+    grid-area: 6 / 1 / 7 / 5;
+}
+
+.footer {   
+    grid-area: 7 / 1 / 8 / 5;
+}

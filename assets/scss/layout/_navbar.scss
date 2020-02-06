@@ -1,0 +1,35 @@
+//Header 
+
+.navbar {       
+
+    .navbar__logo {  
+        text-transform: uppercase;
+        display: inline-block;
+        text-align: left;
+    }
+    
+    .navbar__item, .navbar__list {
+        display: inline-block;
+    }
+
+    .navbar__list {
+        padding-left: 55rem;
+    }
+    .navbar__ul {
+        padding-left: 55rem;
+    }
+
+    .navbar__li {
+        padding-left: 1rem;
+    }
+    .navbar ul li a {
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    
+    .input-menu {
+        border-radius: 30px;
+    }
+}
+
+
