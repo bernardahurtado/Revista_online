@@ -6,6 +6,7 @@
         text-transform: uppercase;
         display: inline-block;
         text-align: left;
+        margin-left: 4rem;
     }
     
     .navbar__item, .navbar__list {
@@ -13,7 +14,8 @@
     }
 
     .navbar__list {
-        padding-left: 55rem;
+        float: right;
+        margin-top: 2rem;
     }
     .navbar__ul {
         padding-left: 55rem;
@@ -33,3 +35,31 @@
 }
 
 
+@media (max-width: 575.98px) {
+
+    .navbar {
+        
+        .navbar__logo {
+            margin-left: 1rem;
+        }
+        .navbar__list{
+            padding-left: 1rem;
+
+            .navbar__none {
+                display: none;
+            }
+        }
+    }
+}
+
+@media (max-width: 321px) {
+
+    .navbar{
+        .navbar__list {
+            float: none;
+            margin-top: 0rem; 
+        }
+
+    }
+    
+}

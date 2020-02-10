@@ -1,5 +1,30 @@
 // Newsletter layout
 
 .newsletter {
-    background-color: mediumpurple;
+    background-color: $light-blue;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 4rem;
+}
+
+.group input,
+.group button {
+    display: inline-block;
+    border-width: 0;
+    font-size: 13px;
+    padding: 5px 10px;
+
+}
+
+.group button {
+    background-color: $coral;
+    color: $white;
+}
+
+@media (max-width: 575.98px) {
+    .newsletter {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
 }
